@@ -62,8 +62,7 @@ function updateProfessionalExperience(profileData) {
             <h3 class="title">${experience.name}</h3>
             <span class="calendar">${experience.period}</span>
             <p>${experience.description}</p>
-            <a href="${experience.url}"
-                target="_blank">${experience.url}</a>
+            <a href="${experience.url}" target="_blank">${experience.url}</a>
         </li>
         `
     }).join('')
@@ -78,5 +77,4 @@ function updateProfessionalExperience(profileData) {
     updateLanguages(profileData)
     updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
-    console.log(profileData)
 })()
