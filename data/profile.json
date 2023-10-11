@@ -48,13 +48,18 @@
   ],
   "portfolio": [
     {
+      "name": "Extensão criado para comunidade, Site Controle de Estoque",
+      "url": "https://github.com/thales-pires45/controle_de_estoque_master",
+      "github": true
+    },
+    {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "url": "https://github.com/thales-pires45/js-developer-pokedex",
       "github": true
     },
     {
       "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "url": "https://github.com/thales-pires45/js-developer-portfolio",
       "github": true
     }
   ],
