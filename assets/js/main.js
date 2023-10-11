@@ -40,12 +40,27 @@ function updateLanguages(profileData) {
     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 }
 
+
+function updatePortfolio(profileData) {
+    const portfolio = document.getElementById('profile.portfolio')
+    portfolio.innerHTML = profileData.portfolio.map(project => {
+        return `
+            <li>
+                <!-- A função a baixo no h3 mostra o icone do git caso herda true no github json -->
+                <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
+                <a href="${project.url}" target="_blank">${project.url}</a>
+            </li>
+        `
+    }).join('')
+}
+
 //Pega os fetch do doc
-(async ()  => {
+(async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
+    updatePortfolio(profileData)
     console.log(profileData)
 })()
