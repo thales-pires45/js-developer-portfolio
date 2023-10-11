@@ -54,6 +54,21 @@ function updatePortfolio(profileData) {
     }).join('')
 }
 
+function updateProfessionalExperience(profileData) {
+    const experiences = document.getElementById('profile.professionalExperience')
+    experiences.innerHTML = profileData.professionalExperience.map(experience => {
+        return `
+        <li>
+            <h3 class="title">${experience.name}</h3>
+            <span class="calendar">${experience.period}</span>
+            <p>${experience.description}</p>
+            <a href="${experience.url}"
+                target="_blank">${experience.url}</a>
+        </li>
+        `
+    }).join('')
+}
+
 //Pega os fetch do doc
 (async () => {
     const profileData = await fetchProfileData()
@@ -62,5 +77,6 @@ function updatePortfolio(profileData) {
     updateHardSkills(profileData)
     updateLanguages(profileData)
     updatePortfolio(profileData)
+    updateProfessionalExperience(profileData)
     console.log(profileData)
 })()
