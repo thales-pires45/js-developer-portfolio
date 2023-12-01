@@ -48,6 +48,7 @@ function updatePortfolio(profileData) {
             <li>
                 <!-- A função a baixo no h3 mostra o icone do git caso herda true no github json -->
                 <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
+                <p>${project.ferramenta}</P>
                 <a href="${project.url}" target="_blank">${project.url}</a>
             </li>
         `

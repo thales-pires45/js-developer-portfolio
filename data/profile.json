@@ -30,6 +30,18 @@
       {
         "name": "GitHub",
         "logo": "https://raw.githubusercontent.com/thales-pires45/js-developer-portfolio/base/data/imgs/github.png"
+      },
+      {
+        "name": "Git",
+        "logo": "https://raw.githubusercontent.com/thales-pires45/js-developer-portfolio/base/data/imgs/git.png"
+      },
+      {
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/thales-pires45/js-developer-portfolio/base/data/imgs/html.png"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/thales-pires45/js-developer-portfolio/base/data/imgs/css.png"
       }
     ],
     "softSkills": [
@@ -48,18 +60,39 @@
   ],
   "portfolio": [
     {
-      "name": "Extensão criado para comunidade, Site Controle de Estoque",
+      "name": "IFSC Extensão criado para comunidade, Site Controle de Estoque",
+      "ferramenta": "Python, Django, JS, HTML, CSS",
       "url": "https://github.com/thales-pires45/controle_de_estoque_master",
       "github": true
     },
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
+      "ferramenta": "JS, API, HTML, CSS",
       "url": "https://thales-pires45.github.io/js-developer-pokedex/",
       "github": true
     },
     {
       "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+      "ferramenta": "JS, Json, HTML, CSS",
       "url": "https://github.com/thales-pires45/js-developer-portfolio",
+      "github": true
+    },
+    {
+      "name": "CSS-Desafio-Dio",
+      "ferramenta": "HTML, CSS",
+      "url": "https://github.com/thales-pires45/css-desafio-1",
+      "github": true
+    },
+    {
+      "name": "Carrosel Parallax do Aranhaverso",
+      "ferramenta": "React.js, Next.js, TypeScript, SCSS, ESLint, Framer Motion, SASS",
+      "url": "https://github.com/thales-pires45/spiderverse",
+      "github": true
+    },
+    {
+      "name": "Spider-Man-Multiverses",
+      "ferramenta": "HTML, CSS, JS", 
+      "url": "https://github.com/thales-pires45/spider-man-multiverses",
       "github": true
     }
   ],
